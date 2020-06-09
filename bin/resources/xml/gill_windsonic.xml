@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sml:PhysicalSystem gml:id="windsonic" xml:lang="en"
+   xmlns:sml="http://www.opengis.net/sensorml/2.0"
+   xmlns:swe="http://www.opengis.net/swe/2.0"
+   xmlns:gml="http://www.opengis.net/gml/3.2"
+   xmlns:gmd="http://www.isotc211.org/2005/gmd"
+   xmlns:gco="http://www.isotc211.org/2005/gco"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xsi:schemaLocation="http://www.opengis.net/sensorml/2.0 http://schemas.opengis.net/sensorML/2.0/sensorML.xsd">
+
+   <!-- ================================================== -->
+   <!--                 System Description                 -->
+   <!-- ================================================== -->
+
+   <gml:description>The Gill WindSonic has been developed specifically for use
+as a low-cost alternative to traditional moving-parts wind
+sensors and is suitable for use in onshore or offshore
+environments.
+The WindSonic is a lightweight, robust unit, completely
+sealed and constructed in UV-resistance plastic. With a low
+start-up speed (0.01m/s) and no moving parts, the Gill
+anemometer exhibits significant benefits over standard 3-
+cup and propeller anemometers. The WindSonic requires
+no calibration or maintenance. Wind speed and direction
+data is provided via a serial bi-directional link, and the
+output may be configured by the user to provide a variety of
+communication formats, including a choice of units of
+measure and averaging periods. Sophisticated error
+checking and a fault reporting system are supplied as
+standard, ensuring the user’s confidence in the reported
+data. The Gill WindSonic represents the best all weather
+solution on the market for providing reliable and accurate
+wind speed and direction information with virtually zero
+maintenance.</gml:description>
+   <gml:identifier codeSpace="UniqueID">urn:gill:windsonic</gml:identifier>
+   <gml:name>Gill_WindSonic</gml:name>
+   <sml:keywords>
+      <sml:KeywordList>
+         <sml:keyword>anemometer</sml:keyword>
+         <sml:keyword>wind</sml:keyword>
+      </sml:KeywordList>
+   </sml:keywords>
+
+   <!-- ================================================== -->
+   <!--                 System Identifiers                 -->
+   <!-- ================================================== -->
+
+   <sml:identification>
+      <sml:IdentifierList>
+         <sml:identifier>
+            <sml:Term definition="http://sensorml.com/ont/swe/property/longName">
+               <sml:label>Long Name</sml:label>
+               <sml:value>Gill Windsonic</sml:value>
+            </sml:Term>
+         </sml:identifier>
+         <sml:identifier>
+            <sml:Term definition="http://sensorml.com/ont/swe/property/shortName">
+               <sml:label>Short Name</sml:label>
+               <sml:value>Windsonic</sml:value>
+            </sml:Term>
+         </sml:identifier>
+         <sml:identifier>
+            <sml:Term definition="http://sensorml.com/ont/swe/property/manufacturer">
+               <sml:label>Manufacturer</sml:label>
+               <sml:value>Gill Instruments Limited</sml:value>
+            </sml:Term>
+         </sml:identifier>
+         <sml:identifier>
+            <sml:Term definition="http://sensorml.com/ont/swe/property/modelNumber">
+               <sml:label>Model Number</sml:label>
+               <sml:value>Windsonic</sml:value>
+            </sml:Term>
+         </sml:identifier>
+      </sml:IdentifierList>
+   </sml:identification>
+
+   <!-- ================================================== -->
+   <!--                 System Classifiers                 -->
+   <!-- ================================================== -->
+
+   <sml:classification>
+      <sml:ClassifierList>
+         <sml:classifier>
+            <sml:Term definition="http://sensorml.com/ont/swe/property/application">
+               <sml:label>Intended Application</sml:label>
+               <sml:value>wind measurement</sml:value>
+            </sml:Term>
+         </sml:classifier>
+         <sml:classifier>
+            <sml:Term definition="http://sensorml.com/ont/swe/property/sensorType">
+               <sml:label>Sensor Type</sml:label>
+               <sml:value>anemometer</sml:value>
+            </sml:Term>
+         </sml:classifier>
+      </sml:ClassifierList>
+   </sml:classification>
+
+   <!-- ================================================== -->
+   <!--                   System Contacts                  -->
+   <!-- ================================================== -->
+
+   <sml:contacts>
+      <sml:ContactList>
+         <sml:contact xlink:arcrole="http://sensorml.com/def/role/Sales">
+            <gmd:CI_ResponsibleParty>
+               <gmd:organisationName>
+                  <gco:CharacterString>Gill Instruments Limited</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice>
+                              <gco:CharacterString>+44 (0) 1590 613500</gco:CharacterString>
+                           </gmd:voice>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>67 Gosport Street</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>Lymington</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>Hampshire</gco:CharacterString>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode>
+                              <gco:CharacterString>SO41 9EG</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:country>
+                              <gco:CharacterString>UK</gco:CharacterString>
+                           </gmd:country>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>contact@gillinstruments.com</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role gco:nilReason="inapplicable"/>
+            </gmd:CI_ResponsibleParty>
+         </sml:contact>
+      </sml:ContactList>
+   </sml:contacts>
+
+   <!-- ================================================== -->
+   <!--                   Profiler Inputs                  -->
+   <!-- ================================================== -->
+
+   <sml:inputs>
+      <sml:InputList>
+         <sml:input name="wind">
+            <sml:ObservableProperty>
+               <swe:label>Atmospheric Wind</swe:label>
+            </sml:ObservableProperty>
+         </sml:input>
+      </sml:InputList>
+   </sml:inputs>
+
+   <!-- ================================================== -->
+   <!--                  Profiler Outputs                  -->
+   <!-- ================================================== -->
+
+   <sml:outputs>
+      <sml:OutputList>
+         <sml:output name="anemometer_outputs">
+            <swe:DataRecord>
+               <swe:field name="speed">
+                  <swe:Quantity>
+                     <swe:uom code="m/s"/>
+                  </swe:Quantity>
+               </swe:field>
+               <swe:field name="direction">
+                  <swe:Quantity>
+                     <swe:uom code="degrees"/>
+                  </swe:Quantity>
+               </swe:field>
+            </swe:DataRecord>
+         </sml:output>
+      </sml:OutputList>
+   </sml:outputs>
+
+   <!-- ================================================== -->
+   <!--                 Profiler Parameters                -->
+   <!-- ================================================== -->
+
+   <sml:parameters>
+      <sml:ParameterList>
+         <sml:parameter name="powerParameters">
+            <swe:DataRecord>
+
+               <swe:field name="powerType">
+                  <swe:Category>
+                     <swe:uom code="V DC @ 14.5mA typical"/>
+                     <swe:constraint>
+                        <swe:AllowedValues>
+                           <swe:interval>9 30</swe:interval>
+                        </swe:AllowedValues>
+                     </swe:constraint>
+                  </swe:Category>
+               </swe:field>
+
+            </swe:DataRecord>
+         </sml:parameter>
+
+         <sml:parameter name="communicationParameters">
+            <swe:DataRecord>
+
+               <swe:field name="communicationsType">
+                  <swe:Category>
+                     <swe:constraint>
+                        <swe:AllowedValues>
+                           <swe:value>RS232</swe:value>
+                           <swe:value>RS422</swe:value>
+                           <swe:value>RS485</swe:value>
+                        </swe:AllowedValues>
+                     </swe:constraint>
+                  </swe:Category>
+               </swe:field>
+
+            </swe:DataRecord>
+         </sml:parameter>
+
+         <sml:parameter name="dimensionParameters">
+            <swe:DataRecord>
+
+               <swe:field name="size">
+                  <swe:Quantity>
+                     <swe:uom code="mm"/>
+                     <swe:value>142x160</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="weight">
+                  <swe:Quantity>
+                     <swe:uom code="kg"/>
+                     <swe:value>0.5</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+            </swe:DataRecord>
+         </sml:parameter>
+
+         <sml:parameter name="environmentalParameters">
+            <swe:DataRecord>
+
+               <swe:field name="moistureProtection">
+                  <swe:Category>
+                     <swe:value>IP65</swe:value>
+                  </swe:Category>
+               </swe:field>
+
+               <swe:field name="operatingTemperature">
+                  <swe:QuantityRange>
+                     <swe:uom code="deg C"/>
+                     <swe:value>-35 70</swe:value>
+                  </swe:QuantityRange>
+               </swe:field>
+
+               <swe:field name="humidity">
+                  <swe:QuantityRange>
+                     <swe:uom code="% RH"/>
+                     <swe:value>5 100</swe:value>
+                  </swe:QuantityRange>
+               </swe:field>
+
+               <swe:field name="emc">
+                  <swe:Category>
+                     <swe:value>BS EN 50081 – 1: 1992 (Emissions Class B), BS EN 50082 – 1: 1997 (Immunity)</swe:value>
+                  </swe:Category>
+               </swe:field>
+
+            </swe:DataRecord>
+         </sml:parameter>
+
+         <sml:parameter name="materialsParameters">
+            <swe:DataRecord>
+
+               <swe:field name="externalConstruction">
+                  <swe:Quantity>
+                     <swe:value>Luran S KR 2861/1C ASA/PC</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+            </swe:DataRecord>
+         </sml:parameter>
+
+         <sml:parameter name="mountingParameters">
+            <swe:DataRecord>
+
+               <swe:field name="pipeMountingDiameter">
+                  <swe:Quantity>
+                     <swe:uom code="mm"/>
+                     <swe:value>44</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+            </swe:DataRecord>
+         </sml:parameter>
+
+      </sml:ParameterList>
+   </sml:parameters>
+
+</sml:PhysicalSystem>

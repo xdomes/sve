@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sml:PhysicalSystem gml:id="aquadopp_profiler_400" xml:lang="en"
+   xmlns:sml="http://www.opengis.net/sensorml/2.0"
+   xmlns:swe="http://www.opengis.net/swe/2.0"
+   xmlns:gml="http://www.opengis.net/gml/3.2"
+   xmlns:gmd="http://www.isotc211.org/2005/gmd"
+   xmlns:gco="http://www.isotc211.org/2005/gco"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xsi:schemaLocation="http://www.opengis.net/sensorml/2.0 http://schemas.opengis.net/sensorML/2.0/sensorML.xsd">
+
+   <!-- ================================================== -->
+   <!--                 System Description                 -->
+   <!-- ================================================== -->
+
+   <gml:description>The Aquadopp Profiler is a highly versatile Acoustic Doppler Current Profiler (ADCP) available in four profiling range options, from less than 1 m to greater than 85 m. Designed for simple yet powerful operation, this current profiler is packed with features used by engineers and researchers to enable accurate and effective hydrodynamic data collection in a variety of environmental conditions.</gml:description>
+   <gml:identifier codeSpace="UniqueID">urn:nortek:aquadopp_profiler_400</gml:identifier>
+   <gml:name>Nortek_Aquadopp_Profiler_400</gml:name>
+   <sml:keywords>
+      <sml:KeywordList>
+         <sml:keyword>oceanography</sml:keyword>
+         <sml:keyword>waves</sml:keyword>
+         <sml:keyword>currents</sml:keyword>
+         <sml:keyword>acoustic doppler</sml:keyword>
+         <sml:keyword>profiler</sml:keyword>
+      </sml:KeywordList>
+   </sml:keywords>
+
+   <!-- ================================================== -->
+   <!--                 System Identifiers                 -->
+   <!-- ================================================== -->
+
+   <sml:identification>
+      <sml:IdentifierList>
+         <sml:identifier>
+            <sml:Term definition="http://sensorml.com/ont/swe/property/longName">
+               <sml:label>Long Name</sml:label>
+               <sml:value>Nortek Aquadopp Profiler 400</sml:value>
+            </sml:Term>
+         </sml:identifier>
+         <sml:identifier>
+            <sml:Term definition="http://sensorml.com/ont/swe/property/shortName">
+               <sml:label>Short Name</sml:label>
+               <sml:value>Aquadopp Profiler 400</sml:value>
+            </sml:Term>
+         </sml:identifier>
+         <sml:identifier>
+            <sml:Term definition="http://sensorml.com/ont/swe/property/manufacturer">
+               <sml:label>Manufacturer</sml:label>
+               <sml:value>Nortek</sml:value>
+            </sml:Term>
+         </sml:identifier>
+         <sml:identifier>
+            <sml:Term definition="http://sensorml.com/ont/swe/property/modelNumber">
+               <sml:label>Model Number</sml:label>
+               <sml:value>Profiler 400</sml:value>
+            </sml:Term>
+         </sml:identifier>
+      </sml:IdentifierList>
+   </sml:identification>
+
+   <!-- ================================================== -->
+   <!--                 System Classifiers                 -->
+   <!-- ================================================== -->
+
+   <sml:classification>
+      <sml:ClassifierList>
+         <sml:classifier>
+            <sml:Term definition="http://sensorml.com/ont/swe/property/application">
+               <sml:label>Intended Application</sml:label>
+               <sml:value>ocean waves</sml:value>
+            </sml:Term>
+         </sml:classifier>
+         <sml:classifier>
+            <sml:Term definition="http://sensorml.com/ont/swe/property/application">
+               <sml:label>Intended Application</sml:label>
+               <sml:value>ocean currents</sml:value>
+            </sml:Term>
+         </sml:classifier>
+         <sml:classifier>
+            <sml:Term definition="http://sensorml.com/ont/swe/property/sensorType">
+               <sml:label>Sensor Type</sml:label>
+               <sml:value>acoustic doppler</sml:value>
+            </sml:Term>
+         </sml:classifier>
+         <sml:classifier>
+            <sml:Term definition="http://sensorml.com/ont/swe/property/sensorType">
+               <sml:label>Sensor Type</sml:label>
+               <sml:value>profiler</sml:value>
+            </sml:Term>
+         </sml:classifier>
+      </sml:ClassifierList>
+   </sml:classification>
+
+   <!-- ================================================== -->
+   <!--                   System Contacts                  -->
+   <!-- ================================================== -->
+
+   <sml:contacts>
+      <sml:ContactList>
+         <sml:contact xlink:arcrole="http://sensorml.com/def/role/Sales">
+            <gmd:CI_ResponsibleParty>
+               <gmd:organisationName>
+                  <gco:CharacterString>Nortek USA Inc.</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice>
+                              <gco:CharacterString>+1 (617) 206-5750</gco:CharacterString>
+                           </gmd:voice>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>21 Drydock Avenue, Suite 740E</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>Boston</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>MA</gco:CharacterString>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode>
+                              <gco:CharacterString>02210-2377</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:country>
+                              <gco:CharacterString>USA</gco:CharacterString>
+                           </gmd:country>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>inquiry@nortekusa.com</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role gco:nilReason="inapplicable"/>
+            </gmd:CI_ResponsibleParty>
+         </sml:contact>
+      </sml:ContactList>
+   </sml:contacts>
+
+   <!-- ================================================== -->
+   <!--                   Profiler Inputs                  -->
+   <!-- ================================================== -->
+
+   <sml:inputs>
+      <sml:InputList>
+         <sml:input name="seaWaterPressure">
+            <sml:ObservableProperty
+               definition="http://mmisw.org/ont/mvco/observableProperty/seaWaterPressure">
+               <swe:label>Sea Water Pressure</swe:label>
+            </sml:ObservableProperty>
+         </sml:input>
+         <sml:input name="seaWaterTemperature">
+            <sml:ObservableProperty
+               definition="http://mmisw.org/ont/mvco/observableProperty/seaWaterTemperature">
+               <swe:label>Sea Water Temperature</swe:label>
+            </sml:ObservableProperty>
+         </sml:input>
+         <sml:input name="volumetricBackscatter">
+            <sml:ObservableProperty
+               definition="http://mmisw.org/ont/mvco/observableProperty/volumetricBackscatter">
+               <swe:label>Volumetric Backscatter</swe:label>
+               <swe:description>doppler backscatter</swe:description>
+            </sml:ObservableProperty>
+         </sml:input>
+         <sml:input name="particleMotion">
+            <sml:ObservableProperty
+               definition="http://mmisw.org/ont/mvco/observableProperty/particleMotion">
+               <swe:label>Particle Motion</swe:label>
+            </sml:ObservableProperty>
+         </sml:input>
+      </sml:InputList>
+   </sml:inputs>
+
+   <!-- ================================================== -->
+   <!--                  Profiler Outputs                  -->
+   <!-- ================================================== -->
+
+   <sml:outputs>
+      <sml:OutputList>
+         <sml:output name="ADCP_outputs">
+            <swe:DataRecord>
+               <swe:field name="pressure">
+                  <swe:Quantity definition="http://mmisw.org/ont/mvco/properties/seaWaterPressure">
+                     <swe:uom code="dbar"/>
+                  </swe:Quantity>
+               </swe:field>
+               <swe:field name="temperature">
+                  <swe:Quantity definition="http://mmisw.org/ont/mvco/properties/seaWaterTemperature">
+                     <swe:uom code="cel"/>
+                  </swe:Quantity>
+               </swe:field>
+               <swe:field name="velocity">
+                  <swe:Quantity definition="http://mmisw.org/ont/mvco/properties/waveVelocity">
+                     <swe:uom code="mm/s"/>
+                  </swe:Quantity>
+               </swe:field>
+               <swe:field name="beamIntensity">
+                  <swe:Quantity definition="http://mmisw.org/ont/mvco/properties/beamIntensity">
+                     <swe:uom code="cd"/>
+                  </swe:Quantity>
+               </swe:field>
+               <swe:field name="correlationCoefficient">
+                  <swe:Quantity definition="http://sensorml.com/ont/swe/property/correlationCoefficient">
+                     <swe:uom code="1"/>
+                  </swe:Quantity>
+               </swe:field>
+            </swe:DataRecord>
+         </sml:output>
+      </sml:OutputList>
+   </sml:outputs>
+
+   <!-- ================================================== -->
+   <!--                 Profiler Parameters                -->
+   <!-- ================================================== -->
+
+   <sml:parameters>
+      <sml:ParameterList>
+         <sml:parameter name="waterVelocityParameters">
+            <swe:DataRecord>
+
+               <swe:field name="maximumProfilingRange">
+                  <swe:QuantityRange>
+                     <swe:uom code="m"/>
+                     <swe:value>60 90</swe:value>
+                  </swe:QuantityRange>
+               </swe:field>
+
+               <swe:field name="cellSize">
+                  <swe:QuantityRange>
+                     <swe:uom code="m"/>
+                     <swe:value>2 8</swe:value>
+                  </swe:QuantityRange>
+               </swe:field>
+
+               <swe:field name="minimumBlanking">
+                  <swe:Quantity>
+                     <swe:uom code="m"/>
+                     <swe:value>1</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="maximumNumberOfCells">
+                  <swe:Quantity>
+                     <swe:value>128</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="velocityRange">
+                  <swe:QuantityRange>
+                     <swe:uom code="m/s"/>
+                     <swe:value>-10 10</swe:value>
+                  </swe:QuantityRange>
+               </swe:field>
+
+               <swe:field name="accuracy">
+                  <swe:QuantityRange>
+                     <swe:uom code="cm/s"/>
+                     <swe:value>1% of measured value plus or minus 0.5</swe:value>
+                  </swe:QuantityRange>
+               </swe:field>
+
+               <swe:field name="maximumSamplingRate">
+                  <swe:Quantity>
+                     <swe:uom code="Hz"/>
+                     <swe:value>1</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="internalSamplingRate">
+                  <swe:Quantity>
+                     <swe:uom code="Hz"/>
+                     <swe:value>2</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+            </swe:DataRecord>
+         </sml:parameter>
+
+         <sml:parameter name="echoIntensityParameters">
+            <swe:DataRecord>
+
+               <swe:field name="maximumSamplingRate">
+                  <swe:Quantity>
+                     <swe:uom code="Hz"/>
+                     <swe:value>1</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="internalSamplingRate">
+                  <swe:Quantity>
+                     <swe:uom code="Hz"/>
+                     <swe:value>2</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="resolution">
+                  <swe:Quantity>
+                     <swe:uom code="dB"/>
+                     <swe:value>0.45</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="dynamicRange">
+                  <swe:Quantity>
+                     <swe:uom code="dB"/>
+                     <swe:value>90</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="transducerAcousticFrequency">
+                  <swe:Quantity>
+                     <swe:uom code="kHz"/>
+                     <swe:value>400</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="numberOfBeams">
+                  <swe:Quantity>
+                     <swe:value>3</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="beamWidth">
+                  <swe:Quantity>
+                     <swe:uom code="degrees"/>
+                     <swe:value>3.7</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+            </swe:DataRecord>
+         </sml:parameter>
+
+         <sml:parameter name="temperatureSensorParameters">
+            <swe:DataRecord>
+
+               <swe:field name="temperatureSensorType">
+                  <swe:Category>
+                     <swe:value>Thermistor embedded in head</swe:value>
+                  </swe:Category>
+               </swe:field>
+
+               <swe:field name="temperatureRange">
+                  <swe:QuantityRange>
+                     <swe:uom code="deg C"/>
+                     <swe:value>-4 40</swe:value>
+                  </swe:QuantityRange>
+               </swe:field>
+
+               <swe:field name="temperatureAccuracy">
+                  <swe:Quantity>
+                     <swe:uom code="deg C"/>
+                     <swe:value>0.1</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="temperatureResolution">
+                  <swe:Quantity>
+                     <swe:uom code="deg C"/>
+                     <swe:value>0.01</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="temperatureTimeResponse">
+                  <swe:Quantity>
+                     <swe:uom code="min"/>
+                     <swe:value>10</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+            </swe:DataRecord>
+         </sml:parameter>
+
+         <sml:parameter name="compassParameters">
+            <swe:DataRecord>
+
+               <swe:field name="compassType">
+                  <swe:Category>
+                     <swe:value>Magnetometer</swe:value>
+                  </swe:Category>
+               </swe:field>
+
+               <swe:field name="compassAccuracy">
+                  <swe:Quantity>
+                     <swe:uom code="degrees"/>
+                     <swe:value>2</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="compassResolution">
+                  <swe:Quantity>
+                     <swe:description>compass resolution for tilt less than 20 degrees</swe:description>
+                     <swe:uom code="degree"/>
+                     <swe:value>0.1</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+            </swe:DataRecord>
+         </sml:parameter>
+
+         <sml:parameter name="tiltSensorParameters">
+            <swe:DataRecord>
+
+               <swe:field name="tiltSensorType">
+                  <swe:Category>
+                     <swe:value>Liquid level</swe:value>
+                  </swe:Category>
+               </swe:field>
+
+               <swe:field name="tiltAccuracy">
+                  <swe:Quantity>
+                     <swe:uom code="degrees"/>
+                     <swe:value>0.2</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="tiltResolution">
+                  <swe:Quantity>
+                     <swe:uom code="degrees"/>
+                     <swe:value>0.1</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="maximumTilt">
+                  <swe:Quantity>
+                     <swe:uom code="degrees"/>
+                     <swe:value>30</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="upOrDown">
+                  <swe:Category>
+                     <swe:value>Automatic detect</swe:value>
+                  </swe:Category>
+               </swe:field>
+
+            </swe:DataRecord>
+         </sml:parameter>
+
+         <sml:parameter name="pressureSensorParameters">
+            <swe:DataRecord>
+
+               <swe:field name="pressureSensorType">
+                  <swe:Category>
+                     <swe:value>Piezoresistive</swe:value>
+                  </swe:Category>
+               </swe:field>
+
+               <swe:field name="pressureSensorRange">
+                  <swe:QuantityRange>
+                     <swe:uom code="m"/>
+                     <swe:value>0 100</swe:value>
+                  </swe:QuantityRange>
+               </swe:field>
+
+               <swe:field name="pressureAccuracy">
+                  <swe:Quantity>
+                     <swe:uom code="% FS"/>
+                     <swe:value>0.5</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="pressurePrecision">
+                  <swe:Quantity>
+                     <swe:uom code="% of full scale"/>
+                     <swe:value>0.005</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+            </swe:DataRecord>
+         </sml:parameter>
+
+         <sml:parameter name="analogInputParameters">
+            <swe:DataRecord>
+
+               <swe:field name="numberOfChannels">
+                  <swe:Quantity>
+                     <swe:value>2</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="supplyVoltage">
+                  <swe:Category>
+                     <swe:description>Supply voltage to analog output devices</swe:description>
+                     <swe:uom code="V mA"/>
+                     <swe:constraint>
+                        <swe:AllowedValues>
+                           <swe:value>Battery voltage/500 mA</swe:value>
+                           <swe:value>+5 V/250 mA</swe:value>
+                           <swe:value>+12 V/100 mA</swe:value>
+                        </swe:AllowedValues>
+                     </swe:constraint>
+                  </swe:Category>
+               </swe:field>
+
+               <swe:field name="voltageInput">
+                  <swe:QuantityRange>
+                     <swe:uom code="V"/>
+                     <swe:value>0 5</swe:value>
+                  </swe:QuantityRange>
+               </swe:field>
+
+               <swe:field name="resolution">
+                  <swe:Category>
+                     <swe:value>16-bit A/D</swe:value>
+                  </swe:Category>
+               </swe:field>
+
+            </swe:DataRecord>
+         </sml:parameter>
+
+         <sml:parameter name="dataRecordingParameters">
+            <swe:DataRecord>
+
+               <swe:field name="capacity">
+                  <swe:Quantity>
+                     <swe:uom code="MB"/>
+                     <swe:value>9</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="additionalCapacity">
+                  <swe:Quantity>
+                     <swe:uom code="GB"/>
+                     <swe:constraint>
+                        <swe:AllowedValues>
+                           <swe:value>4</swe:value>
+                           <swe:value>16</swe:value>
+                        </swe:AllowedValues>
+                     </swe:constraint>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="dataRecord">
+                  <swe:Quantity>
+                     <swe:uom code="bytes"/>
+                     <swe:value>9*Ncells + 32</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="waveRecord">
+                  <swe:Quantity>
+                     <swe:uom code="bytes"/>
+                     <swe:value>Nsamples * 24 + 60</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="mode">
+                  <swe:Category>
+                     <swe:constraint>
+                        <swe:AllowedValues>
+                           <swe:value>Stop when full (default)</swe:value>
+                           <swe:value>wrap</swe:value>
+                        </swe:AllowedValues>
+                     </swe:constraint>
+                  </swe:Category>
+               </swe:field>
+
+            </swe:DataRecord>
+         </sml:parameter>
+
+         <sml:parameter name="realTimeClockParameters">
+            <swe:DataRecord>
+
+               <swe:field name="accuracy">
+                  <swe:QuantityRange>
+                     <swe:uom code="min/year"/>
+                     <swe:value>-1 1</swe:value>
+                  </swe:QuantityRange>
+               </swe:field>
+
+               <swe:field name="backupPeriod">
+                  <swe:Quantity>
+                     <swe:description>Backup in absence of power</swe:description>
+                     <swe:uom code="weeks"/>
+                     <swe:value>4</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+            </swe:DataRecord>
+         </sml:parameter>
+
+         <sml:parameter name="communicationParameters">
+            <swe:DataRecord>
+
+               <swe:field name="communicationType">
+                  <swe:Category>
+                     <swe:constraint>
+                        <swe:AllowedValues>
+                           <swe:value>RS-232</swe:value>
+                           <swe:value>RS-422</swe:value>
+                        </swe:AllowedValues>
+                     </swe:constraint>
+                  </swe:Category>
+               </swe:field>
+
+               <swe:field name="communicationBaudRate">
+                  <swe:QuantityRange definition="http://sensorml.com/ont/swe/property/baudRate">
+                     <swe:uom code="Bd"/>
+                     <swe:value>300 115200</swe:value>
+                  </swe:QuantityRange>
+               </swe:field>
+
+               <swe:field name="recorderDownloadBaudRate">
+                  <swe:Quantity>
+                     <swe:uom code="kBd"/>
+                     <swe:constraint>
+                        <swe:AllowedValues>
+                           <swe:value>600</swe:value>
+                           <swe:value>1200</swe:value>
+                        </swe:AllowedValues>
+                     </swe:constraint>
+                  </swe:Quantity>
+               </swe:field>
+
+            </swe:DataRecord>
+         </sml:parameter>
+
+         <sml:parameter name="connectorParameters">
+            <swe:DataRecord>
+
+               <swe:field name="bulkhead">
+                  <swe:Category>
+                     <swe:description>Bulkhead (Impulse)</swe:description>
+                     <swe:value>MCBH-8-FS</swe:value>
+                  </swe:Category>
+               </swe:field>
+
+               <swe:field name="cable">
+                  <swe:Category>
+                     <swe:description>on 10m polyurethane cable</swe:description>
+                     <swe:value>PMCIL-8-MP</swe:value>
+                  </swe:Category>
+               </swe:field>
+
+            </swe:DataRecord>
+         </sml:parameter>
+
+         <sml:parameter name="powerParameters">
+            <swe:DataRecord>
+
+               <swe:field name="inputDC">
+                  <swe:QuantityRange>
+                     <swe:uom code="V DC"/>
+                     <swe:value>9 15</swe:value>
+                  </swe:QuantityRange>
+               </swe:field>
+
+               <swe:field name="maximumPeakCurrent">
+                  <swe:Quantity>
+                     <swe:uom code="A"/>
+                     <swe:value>3</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="avgPowerConsumption">
+                  <swe:Quantity>
+                     <swe:uom code="W"/>
+                     <swe:value>0.1</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="sleepCurrent">
+                  <swe:Category>
+                     <swe:uom code="microamp"/>
+                     <swe:value>less than 100</swe:value>
+                  </swe:Category>
+               </swe:field>
+
+               <swe:field name="transmitPower">
+                  <swe:QuantityRange>
+                     <swe:uom code="W"/>
+                     <swe:value>0.3 20</swe:value>
+                  </swe:QuantityRange>
+               </swe:field>
+
+            </swe:DataRecord>
+         </sml:parameter>
+
+         <sml:parameter name="batteryParameters">
+            <swe:DataRecord>
+
+               <swe:field name="batteryCapacity">
+                  <swe:Quantity>
+                     <swe:uom code="Wh"/>
+                     <swe:constraint>
+                        <swe:AllowedValues>
+                           <swe:value>50</swe:value>
+                           <swe:value>165</swe:value>
+                        </swe:AllowedValues>
+                     </swe:constraint>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="batteryConfiguration">
+                  <swe:Category>
+                     <swe:constraint>
+                        <swe:AllowedValues>
+                           <swe:value>single</swe:value>
+                           <swe:value>dual</swe:value>
+                        </swe:AllowedValues>
+                     </swe:constraint>
+                  </swe:Category>
+               </swe:field>
+
+               <swe:field name="batteryVoltage">
+                  <swe:Quantity>
+                     <swe:description>New battery voltage (alkaline)</swe:description>
+                     <swe:uom code="V DC"/>
+                     <swe:value>13.5</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+            </swe:DataRecord>
+         </sml:parameter>
+
+         <sml:parameter name="environmentalParameters">
+            <swe:DataRecord>
+
+               <swe:field name="operatingTemperature">
+                  <swe:QuantityRange>
+                     <swe:uom code="degrees C"/>
+                     <swe:value>-5 40</swe:value>
+                  </swe:QuantityRange>
+               </swe:field>
+
+               <swe:field name="storageTemperature">
+                  <swe:QuantityRange>
+                     <swe:uom code="degree C"/>
+                     <swe:value>-20 60</swe:value>
+                  </swe:QuantityRange>
+               </swe:field>
+
+               <swe:field name="shockAndVibration">
+                  <swe:Category>
+                     <swe:value>IEC 721-3-4</swe:value>
+                  </swe:Category>
+               </swe:field>
+
+               <swe:field name="EMC_Approval">
+                  <swe:Category>
+                     <swe:value>IEC 61000</swe:value>
+                  </swe:Category>
+               </swe:field>
+
+               <swe:field name="depthRating">
+                  <swe:Quantity definition="http://mmisw.org/ont/trdi/glossary/depthRating">
+                     <swe:uom code="m"/>
+                     <swe:value>300</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+            </swe:DataRecord>
+         </sml:parameter>
+
+         <sml:parameter name="materialsParameters">
+            <swe:DataRecord>
+
+               <swe:field name="standardModel">
+                  <swe:Category>
+                     <swe:value>POM and polyurethane plastics with titanium fasteners</swe:value>
+                  </swe:Category>
+               </swe:field>
+
+            </swe:DataRecord>
+         </sml:parameter>
+
+         <sml:parameter name="dimensionParameters">
+            <swe:DataRecord>
+
+               <swe:field name="maximumDiameter">
+                  <swe:Quantity>
+                     <swe:uom code="mm"/>
+                     <swe:value>117</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="maximumLengthSingleBattery">
+                  <swe:Quantity>
+                     <swe:description>approximate length</swe:description>
+                     <swe:uom code="mm"/>
+                     <swe:value>600</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="maximumLengthDoubleBattery">
+                  <swe:Quantity>
+                     <swe:description>depending on head configuration</swe:description>
+                     <swe:uom code="mm"/>
+                     <swe:value>110</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+            </swe:DataRecord>
+         </sml:parameter>
+
+         <sml:parameter name="weightParameters">
+            <swe:DataRecord>
+
+               <swe:field name="weightInAir">
+                  <swe:Quantity>
+                     <swe:uom code="kg"/>
+                     <swe:value>3.4</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+               <swe:field name="weightInWater">
+                  <swe:Quantity>
+                     <swe:uom code="kg"/>
+                     <swe:value>0.2</swe:value>
+                  </swe:Quantity>
+               </swe:field>
+
+            </swe:DataRecord>
+         </sml:parameter>
+
+      </sml:ParameterList>
+   </sml:parameters>
+
+</sml:PhysicalSystem>
